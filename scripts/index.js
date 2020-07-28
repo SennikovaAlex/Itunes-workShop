@@ -19,13 +19,12 @@ playerBtn.forEach((btn, index) => btn.addEventListener('click', () => {
         deativationPlayer();
         btn.classList.add('active');
         playerBlock[index].classList.add('active');
-
     }));
 
 
 
 
-
+videoPlayerInit();
 radioPlayerInit();
 musicPlayerInit();
-videoPlayerInit();
+
